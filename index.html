@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futsal Pro - Tênis de Futsal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Futsal<span>Pro</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Destaque -->
+    <section id="home" class="hero">
+        <h1>O Melhor Tênis Para Dominar a Quadra</h1>
+        <p>Velocidade, conforto e precisão para elevar seu futsal ao próximo nível.</p>
+        <button onclick="rolarParaProdutos()">Ver Produtos</button>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="produtos">
+        <h2>Nossos Tênis de Futsal</h2>
+
+        <div class="grid-produtos">
+
+            <div class="produto">
+                <img src="https://via.placeholder.com/250x200" alt="Tênis Futsal 1">
+                <h3>Futsal Max Pro</h3>
+                <p>Leveza e aderência para mais controle.</p>
+                <span>R$ 299,90</span>
+                <button>Comprar</button>
+            </div>
+
+            <div class="produto">
+                <img src="https://via.placeholder.com/250x200" alt="Tênis Futsal 2">
+                <h3>Speed F5</h3>
+                <p>Explosão e conforto em cada movimento.</p>
+                <span>R$ 349,90</span>
+                <button>Comprar</button>
+            </div>
+
+            <div class="produto">
+                <img src="https://via.placeholder.com/250x200" alt="Tênis Futsal 3">
+                <h3>Precision Elite</h3>
+                <p>Alta precisão para jogadores decisivos.</p>
+                <span>R$ 379,90</span>
+                <button>Comprar</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos especialistas em calçados esportivos com foco em futsal. Nossa missão é oferecer qualidade, conforto e desempenho aos atletas de todas as categorias.</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 FutsalPro - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
